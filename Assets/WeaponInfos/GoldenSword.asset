@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be04ea150bdeb54486dc705381627c7, type: 3}
   m_Name: GoldenSword
   m_EditorClassIdentifier: 
-  Damage: 5
+  Damage: 10
   Weapon: {fileID: 4966958585453467634, guid: b0664f1bafbd4cd46baaf2ab6fa1fccb, type: 3}
   WeaponType: 0

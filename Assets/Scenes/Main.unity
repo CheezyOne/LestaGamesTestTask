@@ -1103,6 +1103,9 @@ MonoBehaviour:
   _healthPerBarbarianLevel: 6
   _healthPerWarriorLevel: 5
   _healthPerAssasinLevel: 4
+  _levelForAssasinAgilityUp: 2
+  _levelForWarriorStrengthUp: 3
+  _levelForBarbarianDurabilityUp: 3
 --- !u!1001 &128822716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5439,9 +5442,9 @@ MonoBehaviour:
   _healthImage: {fileID: 1916766565}
   _healthCanvas: {fileID: 847699570}
   _healthText: {fileID: 463279906}
-  _healthModificators: 02000000
   _shieldDamageReduction: 3
   _maxHealth: 10
+  _healthModificators: 02000000
 --- !u!114 &698703568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6418,7 +6421,7 @@ MonoBehaviour:
   _missTextSpawnPosition: {x: 0, y: 2, z: 0}
   _missText: {fileID: 7208851837335717162, guid: 834a0e10a07012649a8bab0340f27f71, type: 3}
   _missTextString: "\u041F\u0440\u043E\u043C\u0430\u0445!"
-  _startingDamage: 2
+  _startingDamage: 3
   _attackDelay: 2
   _animator: {fileID: 5729349916970509367}
 --- !u!114 &842291310
@@ -6443,9 +6446,9 @@ MonoBehaviour:
   _healthImage: {fileID: 821409217}
   _healthCanvas: {fileID: 524274172}
   _healthText: {fileID: 2132198011}
-  _healthModificators: 
   _shieldDamageReduction: 3
   _maxHealth: 6
+  _healthModificators: 
 --- !u!1 &847699569
 GameObject:
   m_ObjectHideFlags: 0
@@ -8287,11 +8290,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3c3a23f7e522ee4d80603f27ca892fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fightsNumber: 3
+  _fightsNumber: 5
   _loseWindow: {fileID: 236483518856977715, guid: 66fd6c1db68e8814d903e705bc05e358, type: 3}
   _fightVictoryWindow: {fileID: 2352931729397635174, guid: 369f5f671af43fa49b1a2fdbd11168a8, type: 3}
   _gameVictoryWindow: {fileID: 6511828159229527472, guid: bf7e0e0c37138e6419dce728e8bccf04, type: 3}
-  _deleteOpponentsWait: 7
   _playerInfoText: {fileID: 515972427}
   _enemyInfoText: {fileID: 1747576386}
   _shieldDescription: "\u0429\u0438\u0442: -3 \u043A \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u043C\u043E\u043C\u0443
@@ -13284,7 +13286,7 @@ MonoBehaviour:
   _missTextSpawnPosition: {x: 0, y: 2, z: 0}
   _missText: {fileID: 7208851837335717162, guid: 834a0e10a07012649a8bab0340f27f71, type: 3}
   _missTextString: "\u041F\u0440\u043E\u043C\u0430\u0445!"
-  _startingDamage: 3
+  _startingDamage: 2
   _attackDelay: 2
   _animator: {fileID: 833813346394691963}
 --- !u!114 &2030644688
@@ -13309,9 +13311,9 @@ MonoBehaviour:
   _healthImage: {fileID: 1501832883}
   _healthCanvas: {fileID: 893916665}
   _healthText: {fileID: 591849884}
-  _healthModificators: 03000000
   _shieldDamageReduction: 3
   _maxHealth: 10
+  _healthModificators: 03000000
 --- !u!114 &2030644689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39021,9 +39023,9 @@ MonoBehaviour:
   _healthImage: {fileID: 166338094}
   _healthCanvas: {fileID: 355500007}
   _healthText: {fileID: 599576869}
-  _healthModificators: 
   _shieldDamageReduction: 3
   _maxHealth: 20
+  _healthModificators: 
 --- !u!114 &3960230708970065920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67704,9 +67706,9 @@ MonoBehaviour:
   _healthImage: {fileID: 236751840}
   _healthCanvas: {fileID: 970269476}
   _healthText: {fileID: 450811286}
-  _healthModificators: 
   _shieldDamageReduction: 3
   _maxHealth: 5
+  _healthModificators: 
 --- !u!114 &8621575991246715222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71085,9 +71087,9 @@ MonoBehaviour:
   _healthImage: {fileID: 1990078884}
   _healthCanvas: {fileID: 184129965}
   _healthText: {fileID: 1895557193}
-  _healthModificators: 01000000
   _shieldDamageReduction: 3
   _maxHealth: 8
+  _healthModificators: 01000000
 --- !u!114 &8955322501207375597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73022,9 +73024,9 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 790244371}
   - {fileID: 675560507}
-  - {fileID: 1071137710751353048}
   - {fileID: 3304066434291696140}
-  - {fileID: 1518208283220008286}
+  - {fileID: 1071137710751353048}
   - {fileID: 7557880227426630482}
+  - {fileID: 1518208283220008286}
   - {fileID: 353386537557927829}
   - {fileID: 232325294001193513}
